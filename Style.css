@@ -37,5 +37,20 @@ main > section button {
     line-height: 15px;
     padding: 5px 15px;
     text-transform: uppercase;
-    
+}   
+
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    width: 90%;
 }
+
+#detalhes-container > li{
+    aling-items: baseline;
+    display: flex;
+}
+
+#detalhes-container > li p {
+    color: white;
+}
+

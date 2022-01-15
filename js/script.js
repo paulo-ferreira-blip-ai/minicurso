@@ -15,7 +15,7 @@ traduzirCondicao = (data) => {
 }
 
 gerarValorAleatorio = () => {
-    return Math.floor(Math.random() * 671);
+    return Math.floor(Math.random() * 826);
 }
 
 pegarPersonagem = () => {

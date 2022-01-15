@@ -11,11 +11,28 @@ body {
     width: 100%;
 }
 
-main{
+#caixa1{
+    align-items: left;
+    display: flex;
+    height: 100vh;
+    justify-content: left;
+    position: relative;
+}
+
+#caixa2{
     align-items: center;
     display: flex;
     height: 100vh;
     justify-content: center;
+    position: relative;
+}
+
+
+#caixa3{
+    align-items: right;
+    display: flex;
+    height: 100vh;
+    justify-content: right;
     position: relative;
 }
 
@@ -55,4 +72,7 @@ main > section button {
 
 
 }
+
+
+
 

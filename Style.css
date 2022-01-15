@@ -6,43 +6,45 @@ body {
         #008B8B 60%,
         #C71585 95%
     );
-    margin: 0;
+    margin: 0px;
     min-height: 100vh;
     width: 100%;
+    align-items: horizontal;
+    display: flex;
 }
 
 #caixa1{
     align-items: left;
-    display: flex;
-    height: 100vh;
+    display: block;
+    height: 33vh;
     justify-content: left;
-    position: relative;
+    position: horizontal;
 }
 
 #caixa2{
     align-items: center;
-    display: flex;
-    height: 100vh;
+    display: block;
+    height: 71vh;
     justify-content: center;
-    position: relative;
+    position: horizontal;
 }
 
 
 #caixa3{
     align-items: right;
-    display: flex;
-    height: 100vh;
+    display: block;
+    height: 33vh;
     justify-content: right;
-    position: relative;
+    position: horizontal;
 }
 
 main > section img {
     height: 300px;
-    margin: 15px 0;
+    margin: 15px 25px;
     width: 400px;
 }
 
-main > section button {
+#caixabotao {
     background-color: #39a1c4;
     border: none;
     border-radius: 5px;
@@ -54,6 +56,13 @@ main > section button {
     line-height: 15px;
     padding: 5px 15px;
     text-transform: uppercase;
+    align-self: center;
+    justify-content: below;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
 }   
 
 #detalhes-container {
@@ -65,10 +74,12 @@ main > section button {
 #detalhes-container > li {
     align-items: baseline;
     display: flex;
+    
 }
 
 #detalhes-container > li p {
     color: rgb(209, 243, 17);
+    align-items: center;
 
 
 }

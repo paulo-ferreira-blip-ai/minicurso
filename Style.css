@@ -42,6 +42,7 @@ main > section img {
     height: 300px;
     margin: 15px 25px;
     width: 400px;
+    border-radius: 8px;
 }
 
 #caixabotao {
@@ -79,7 +80,7 @@ main > section img {
 
 #detalhes-container > li p {
     color: rgb(209, 243, 17);
-    align-items: center;
+    
 
 
 }
